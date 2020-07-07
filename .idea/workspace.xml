@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment="0706" />
+    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment="0706">
+      <change afterPath="$PROJECT_DIR$/xuexi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuexi/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offline.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/offline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/online.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuexi.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/xuexi.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,9 +57,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
-  <component name="RunManager" selected="Python.xuexi">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\软件\rcs\xuexi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.dictionary">
     <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rcs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,6 +86,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xuexi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/dictionary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rcs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,27 +120,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mockAPI/lib/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="online" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rcs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/online.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +161,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi.py" />
+      <option name="SCRIPT_NAME" value="D:\软件\rcs\xuexi\xuexi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.xuexi" />
+        <item itemvalue="Python.dictionary" />
         <item itemvalue="Python.demo1" />
+        <item itemvalue="Python.xuexi" />
         <item itemvalue="Python.start" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.online" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594026731468</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0706">
+      <created>1594027157451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594027157451</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +225,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
@@ -241,26 +262,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="488" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1594026074865" />
-    <state width="1259" height="7" key="GridCell.Tab.0.bottom" timestamp="1594024591088">
+    <state width="1259" height="160" key="GridCell.Tab.0.bottom" timestamp="1594136787205">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1515" height="134" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1592560047475" />
-    <state width="1259" height="7" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594024591088" />
-    <state width="1259" height="7" key="GridCell.Tab.0.center" timestamp="1594024591088">
+    <state width="1259" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594136787205" />
+    <state width="1259" height="160" key="GridCell.Tab.0.center" timestamp="1594136787205">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1515" height="134" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1592560047475" />
-    <state width="1259" height="7" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594024591088" />
-    <state width="1259" height="7" key="GridCell.Tab.0.left" timestamp="1594024591087">
+    <state width="1259" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594136787205" />
+    <state width="1259" height="160" key="GridCell.Tab.0.left" timestamp="1594136787205">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1515" height="134" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1592560047474" />
-    <state width="1259" height="7" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594024591087" />
-    <state width="1259" height="7" key="GridCell.Tab.0.right" timestamp="1594024591088">
+    <state width="1259" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594136787205" />
+    <state width="1259" height="160" key="GridCell.Tab.0.right" timestamp="1594136787205">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1515" height="134" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1592560047475" />
-    <state width="1259" height="7" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594024591088" />
+    <state width="1259" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594136787205" />
     <state width="1259" height="134" key="GridCell.Tab.1.bottom" timestamp="1594017728777">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -277,10 +298,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="134" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1594017728776" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1594025950917">
+    <state x="144" y="0" key="SettingsEditor" timestamp="1594027918136">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1594025950917" />
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1594027918136" />
     <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1594026622808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -289,10 +310,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="433" y="17" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1593616750601" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1593944354148">
+    <state x="439" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594027589729">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1593944354148" />
+    <state x="439" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1594027589729" />
+    <state x="351" y="127" key="git4idea.merge.GitPullDialog" timestamp="1594027614491">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="351" y="127" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1594027614491" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1594136226465">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1594136226465" />
     <state x="471" y="131" key="svn.repositoryBrowser" timestamp="1594024735488">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
