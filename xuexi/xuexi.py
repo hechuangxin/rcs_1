@@ -84,6 +84,7 @@ print("一群人".join([a_11,a_33,a_22]).split("的"))
 b_2="334556674524"
 print(b_2.isdigit())     #isdigit判断是否为正整数 ，不是：False，是正整数：True
 
+
 #
 # abc=["123","木头人"]
 # abc.append("我是")     #添加一个 “我是” 到末尾 #只能添加单个
