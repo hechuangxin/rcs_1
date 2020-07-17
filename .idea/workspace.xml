@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment="0708_01">
+    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment=" 123">
+      <change afterPath="$PROJECT_DIR$/mockAPI/lib/ui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuexi/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/dictionary.py" afterDir="false" />
     </list>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594180365702</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" 123">
+      <created>1594956774028</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594956774028</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +257,8 @@
     <MESSAGE value="0707 dictionary" />
     <MESSAGE value="0708" />
     <MESSAGE value="0708_01" />
-    <option name="LAST_COMMIT_MESSAGE" value="0708_01" />
+    <MESSAGE value=" 123" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 123" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1593400168865">
@@ -281,26 +290,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="488" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1594026074865" />
-    <state width="1259" height="160" key="GridCell.Tab.0.bottom" timestamp="1594889915127">
+    <state width="1259" height="160" key="GridCell.Tab.0.bottom" timestamp="1594975162526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1515" height="134" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1592560047475" />
-    <state width="1259" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594889915127" />
-    <state width="1259" height="160" key="GridCell.Tab.0.center" timestamp="1594889915126">
+    <state width="1259" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594975162526" />
+    <state width="1259" height="160" key="GridCell.Tab.0.center" timestamp="1594975162526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1515" height="134" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1592560047475" />
-    <state width="1259" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594889915126" />
-    <state width="1259" height="160" key="GridCell.Tab.0.left" timestamp="1594889915125">
+    <state width="1259" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594975162526" />
+    <state width="1259" height="160" key="GridCell.Tab.0.left" timestamp="1594975162526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1515" height="134" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1592560047474" />
-    <state width="1259" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594889915125" />
-    <state width="1259" height="160" key="GridCell.Tab.0.right" timestamp="1594889915127">
+    <state width="1259" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594975162526" />
+    <state width="1259" height="160" key="GridCell.Tab.0.right" timestamp="1594975162526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1515" height="134" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1592560047475" />
-    <state width="1259" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594889915127" />
+    <state width="1259" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594975162526" />
     <state width="1259" height="134" key="GridCell.Tab.1.bottom" timestamp="1594017728777">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -321,10 +330,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1594568770907" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1594180489715">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1594956786726">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1594180489715" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1594956786726" />
     <state x="433" y="17" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593616750601">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

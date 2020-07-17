@@ -52,6 +52,7 @@ from decimal import Decimal
 # print(not 1==1 and 2==2)
 # # in  在什么什么里面，not in  不在什么什么里面
 # print(2 in [1,2,3])
-print("001" not in {"agv":"001","bucket":"t-001"})
-
-
+# print("001" not in {"agv":"001","bucket":"t-001"})     #只针对value
+a=' 123 '
+b=a.replace('3','2')
+print(b)
