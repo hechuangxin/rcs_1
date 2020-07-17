@@ -56,3 +56,5 @@ from decimal import Decimal
 a=' 123 '
 b=a.replace('3','2')
 print(b)
+
+
