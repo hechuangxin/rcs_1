@@ -1,4 +1,4 @@
-from decimal import Decimal
+
 # a={"agv":"creey001","bucket":"T-5","name":"木头人","age":"123"}
 
 # # print(a["agv"])       #打印key值为"agv"  获取对应的value
@@ -29,7 +29,8 @@ from decimal import Decimal
 # print(8%5)     #取余
 # print(2**3)     #2的3次方
 # print(100.1-0.2)
-# print(Decimal('1.235')-Decimal('0.1'))    #精确到很高的位置
+from decimal import Decimal
+# print(Decimal('1.235')-Decimal('0.1'))    #精确到很高的位置  ， 要写成字符串形式
 # print(type(Decimal('1.235') - Decimal('0.1')))     #判断类型  <class 'decimal.Decimal'>
 # print(Decimal('56.6') - Decimal('10') == Decimal('46.6'))
 # print(8//5==1)               #打印 8除5整除结果是否为1
@@ -53,8 +54,38 @@ from decimal import Decimal
 # # in  在什么什么里面，not in  不在什么什么里面
 # print(2 in [1,2,3])
 # print("001" not in {"agv":"001","bucket":"t-001"})     #只针对value
-a=' 123 '
-b=a.replace('3','2')
-print(b)
+# a=' 123 '
+# b=a.replace('3','2')
+# print(b)
+# a = ('aa',11)
+# b = ('bb',22)
+# c = [('cc',33)]
+# d = {}
+# a_key = a[0]
+# # print(a_key)
+# d[a_key] = a[1]
+# print(d)                     #把a ， b， c， 插入到 d 字典里面
+# d[b[0]] = b[1]
+# print(d)
+# # c_key = c[0]
+# # print(c_key)
+# # c1=c_key[0]
+# # print(c1)
+# d[c[0][0]] = c[0][1]
+# print(d)
+# x = [a, b, c[0]]            # 使用dict方法
+# print(dict(x))
+
+
+
+
+
+
+
+
+
+
+
+
 
 
