@@ -76,15 +76,95 @@ from decimal import Decimal
 # x = [a, b, c[0]]            # 使用dict方法
 # print(dict(x))
 
+#if   elif   else
+
+# a=1
+# if type(a) == int :
+#     pass
+# elif type(a) == str :
+#     print("我最帅")
+# else:
+#     print("我要学习")
+# print('今天是美好的一天')
+# a=[11,21,432,7654,763,876765,234,2]
+# for b in a:
+#     print(b)
+
+# a={"agv":"creey001","bucket":"T-5","name":"木头人","age":"123"}
+#
+# for b in a.values():
+#     print('hahaha:{}'.format(b))               #把输出格式化
+# for c in a.items():
+#     print(c)             #打印获取到的字典
+# for d in a .keys():
+#     print(d)            #打印获取到的所有的key值
+# a = 0
+# while(a <=10):
+#     print('hahaahahaaha')
+#     print(a)
+#     a+= 1
+# print('钓鱼去')
+# b = 0
+# while True:
+#     print('天气晴朗')
+#     print(b)
+#     if b == 10:
+#         print('今天是个好日子')
+#         break            #退出循环
+#     b+= 1
+# print('已退出循环')
+
+# a = [1,2,3,4,5,6,7,8,9]
+# b = [1,2,3,4,5,6,7,8,9]
+# for c in a:
+#     for d in b:
+#         print('{} * {} = {}'.format(c,d,c*d),end='\t')
+
+# for q in range(1,10):
+#     for w in range(1,10):
+#         if w <= q :
+#             print('{}*{}={}'.format(w,q,w*q),end='\t')
+#     print()
+
+# def a(x,y):
+#     c = y+1
+#     d = x*2
+#     return c,d            #return返回值
+# print(a(4,7))
 
 
+# def user_info(A,b,p):
+#     print('agvcode:{}'.format(A))
+#     print('bucket:{}'.format(b))                      #TODO：没懂
+#     print('poindcode:{}'.format(p))
+#
+#
+# user_info('1232','t-5','fsadfsdf')
+# user_info(p='fsadfsdf',A='1232',b='t-5')         #贴上标签可以无序，关键字参数
+
+# def a(qw,er,*c):
+#     b=2
+#     d=qw+er+b
+#     for n in c:
+#         d+=n
+#     return d
+# m=[3,4,5]
+# print(a(1,2,*m))
+
+# def a(b,c,*args,**kwargs):
+#     print(args)
+#     print(kwargs)
+# a(1,2,3,4,zx='hhh',qw='qwe')
 
 
-
-
-
-
-
+#当函数没有被调用之前，函数的定义顺序没有关系
+name = '晓峰'
+def dalao():
+    global name
+    name = name + '彼'
+    print('{} is dalao'.format(name))
+print(dalao())
+print(name)
 
 
 
