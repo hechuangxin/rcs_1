@@ -123,3 +123,8 @@ print(b_2.isdigit())     #isdigit判断是否为正整数 ，不是：False，�
 # #哈哈哈哈哈哈哈哈啊哈
 # print(c_1)
 # a="qwewqe"
+
+def eqweqwewqqwqeqw():
+    print('hahahahaahaha')
+    return
+
