@@ -165,21 +165,55 @@ from decimal import Decimal
 #     print('{} is dalao'.format(name))
 # print(dalao())
 # print(name)
-'''
-有四个数字：1、2、3、4，能组成多少个互不相同且无重复数字的三位数？各是多少？
-'''
-def r(x,y):
-    for a in range(x,y):
-        for b in range(x,y):
-            for c in range(x,y):
-                if (a!=b) and (a!=c) and (b!=c):
-                    print(a,b,c)
-r(1,6)
-
-
-#模块导入需要从根目录开始查找
-#有重复的或者函数名称很长可以使用，as
+# '''
+# 有四个数字：1、2、3、4，能组成多少个互不相同且无重复数字的三位数？各是多少？
+# '''
+# def r(x,y):
+#     for a in range(x,y):
+#         for b in range(x,y):
+#             for c in range(x,y):
+#                 if (a!=b) and (a!=c) and (b!=c):
+#                     print(a,b,c)
+# r(1,6)
 #
+#
+# #模块导入需要从根目录开始查找
+# #有重复的或者函数名称很长可以使用，as
+# #
+#
+# import xuexi as a
+# a.eqweqwewqqwqeqw()
 
-import xuexi as a
-a.eqweqwewqqwqeqw()
+
+import os
+print(os.getcwd())           #当前运行的文件路径
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,9 +9,9 @@ headers = {
     "Content-Type": "application/json",
     "charset": "utf-8",
 }
-evo_conn = pymysql.connect(host="192.168.21.153",user="root", password="root123", charset="utf8")
+evo_conn = pymysql.connect(host="172.31.238.16",port=30082,user="root", password="123456", charset="utf8")
 evo_cursor = evo_conn.cursor()
-list = ['Gpd7iZ','S3NiwT']
+list = ['9001_kckq_WHBtmm','9001_kckq_B5sp7r']
 
 #list = ['6001_kckq_tnzQah', '6001_kckq_AXN3MZ', '6001_kckq_M8pTAX', '6001_kckq_nChwhs', '6001_kckq_2ey8KK']
 
@@ -33,17 +33,18 @@ def back_bucket():
                           "warehouseId":"1"
                         }
         robotjobID_list[station] = robotjobId
-        response = requests.post(url='http://192.168.21.153:9001/api/rcs/standardized/operation/notice',
+        response = requests.post(url='http://172.31.238.16:31038/api/rcs/standardized/operation/notice',
                                  data=json.dumps(back_data), headers=headers)
         if json.loads(response.text).get('msg', False) == 'success':
             time.sleep(1)
             print("货架{}到工作站，当前任务序号:{}, 开始下发回库任务".format(robotjobId, back_data['robotJobId']))
+            break
         else:
             time.sleep(1)
 
 
 def create_job():
-    order = 10
+    order = 1
     for i in range(order):
         evo_cursor.execute('select bucket_code,point_code from evo_basic.basic_bucket where enabled="1" and point_code !="-1" and point_code is not NULL;')
         result = evo_cursor.fetchall()
@@ -55,7 +56,7 @@ def create_job():
                           "endArea":"",
                           "jobPriority": 9,
                           "jobPriorityType": 1,
-                          "letDownFlag": "online",
+                          "letDownFlag": "offline",
                           "robotJobId": "A{}".format(uuid.uuid4()),
                           "workFace":"2",
                           "transportEntityType": "BUCKET",
@@ -70,7 +71,7 @@ def create_job():
                           "robotJobGroupId":"",
                           "agvCode":""
                         }
-        response = requests.post(url='http://192.168.21.153:9001/api/rcs/standardized/robot/job/submit',
+        response = requests.post(url='http://172.31.238.16:31038/api/rcs/standardized/robot/job/submit',
                                  data=json.dumps(tostation_data), headers=headers)
         if json.loads(response.text).get('msg') == 'success':
             print("第{}个出库任务下发成功".format(i + 1))
@@ -80,5 +81,8 @@ def create_job():
             print("第{}个出库任务下发失败".format(i + 1))
             print(response.text)
 
-create_job()
-back_bucket()
+while True:
+    create_job()
+    time.sleep(60)
+    # back_bucket()
+    # time.sleep(60)
