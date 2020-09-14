@@ -188,32 +188,46 @@ from decimal import Decimal
 import os
 print(os.getcwd())           #当前运行的文件路径
 
+print(os.path.abspath(__file__))    #绝对路径，显示文件名称
 
+print(os.path.dirname(os.path.abspath(__file__)))    #获取运行的文件路径
 
+#路径拼接    os.path.join()
+a = os.path.dirname(os.path.abspath(__file__))
+print(os.path.join(a,'123'))
 
+#创建文件夹
+# b = os.path.join(a,'123')
+# os.mkdir(b)
+#是否是一个文件
+print(os.path.isfile(a))
 
+#判断路径是否存在
+print(os.path.exists(a))
 
+b = os.path.join(a,'123')
+if not os.path.exists(b):
+    os.mkdir(b)
 
+#打开一个文件
+name = os.path.dirname(os.path.abspath(__file__))
 
+print(name)
 
+xixixi= os.path.join(name,'quick')
 
+f = open(xixixi,encoding = 'UTF-8')
+print(f.read())
 
+f.close()
 
+f = open(xixixi,mode='w',encoding = 'UTF-8')
+f.write('哈哈哈哈')
+f.close()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+f = open(xixixi,'a',encoding = 'UTF-8')
+f.write('dasdasdasda')
+f.close()
 
 
 
