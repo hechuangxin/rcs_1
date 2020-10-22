@@ -125,7 +125,7 @@ from decimal import Decimal
 #         if w <= q :
 #             print('{}*{}={}'.format(w,q,w*q),end='\t')
 #     print()
-
+#
 # def a(x,y):
 #     c = y+1
 #     d = x*2
@@ -174,7 +174,7 @@ from decimal import Decimal
 #             for c in range(x,y):
 #                 if (a!=b) and (a!=c) and (b!=c):
 #                     print(a,b,c)
-# r(1,6)
+# r(1,7)
 #
 #
 # #模块导入需要从根目录开始查找
