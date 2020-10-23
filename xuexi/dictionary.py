@@ -235,23 +235,7 @@ from decimal import Decimal
 
 
 
-"""
-1. 如果有钱，则可以上车
-    2. 上车后，如果有空座，可以坐下
-    上车后，如果没有空座，则站着等空座位
-如果没钱，不能上车
-"""
-# 假设用 money = 1 表示有钱, money = 0表示没有钱; seat = 1 表示有空座，seat = 0 表示没有空座
-money = int(input('输入金额：'))
-seat = 1
-if money >= 1:
-    print("有钱可以上车")
-    if seat == 1:
-        print("可以上车坐下")
-    else:
-        print("站着")
-else:
-    print("没钱")
+
 
 
 

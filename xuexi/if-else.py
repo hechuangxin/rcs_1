@@ -58,13 +58,60 @@
 #     a = a+1
 # if a==7:
 #     print("已冻结")
-total = 99
-for number in range(1,100):
-    if number % 7 == 0:
-        continue
-    else:
-        string = str(number)
-        if string.endswith('7'):
-            continue
-    total = total - 1
-print(total)
+# total = 99
+# for number in range(1,100):
+#     if number % 7 == 0:
+#         continue
+#     else:
+#         string = str(number)
+#         if string.endswith('7'):
+#             continue
+#     total = total - 1
+# print(total)
+
+"""
+1. 如果有钱，则可以上车
+    2. 上车后，如果有空座，可以坐下
+    上车后，如果没有空座，则站着等空座位
+如果没钱，不能上车
+"""
+# 假设用 money = 1 表示有钱, money = 0表示没有钱; seat = 1 表示有空座，seat = 0 表示没有空座
+# money = int(input('输入金额：'))
+# seat = 1
+# if money >= 1:
+#     print("有钱可以上车")
+#     if seat == 1:
+#         print("可以上车坐下")
+#     else:
+#         print("站着")
+# else:
+#     print("没钱")
+
+# name = ['邓肯','吉诺比利','帕克']
+# sing = ['石佛','妖刀','跑车']
+# dictionary = dict(zip(name,sing))
+# print(dictionary)
+
+# a = dict(b = 1,d = 2 )
+# print(a)
+# print(a['d'])
+# #根据get方法获取值，当没有key值时返回默认值：“没有值”
+# print('c的值是：',a.get('c','没有值'))
+# a.clear()
+# print(a)
+
+# aa= {'qq':'1234555','明日科技':'5435235','无语':'65632'}
+# #提取key值
+# #print(aa.pop('qq'))
+# for b in aa.items():
+#     print(b)
+# for c in aa.keys():
+#     print(c)
+# for d in aa.values():
+#     print(d)
+
+
+for a in range(10):
+    for b in range(1,a+1):
+        print('{}*{}={}'.format(b,a,a*b),end='\t')
+    print()
