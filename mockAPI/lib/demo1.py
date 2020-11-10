@@ -23,7 +23,7 @@ def workbin_report():
 
 if __name__ == '__main__':
     # app.run(debug=True,threaded=True, port=9990,host='0.0.0.0') host为本地ip及端口号配置
-    host = '172.31.247.196'
+    host = '172.31.224.49'
     port = 9999
     print(host+':'+str(port))
     server = pywsgi.WSGIServer((host,port),app)

@@ -111,7 +111,45 @@
 #     print(d)
 
 
-for a in range(10):
-    for b in range(1,a+1):
-        print('{}*{}={}'.format(b,a,a*b),end='\t')
-    print()
+# for a in range(1,10):
+#     for b in range(1,a+1):
+#         print('{}*{}={}'.format(b,a,a*b),end='\t')
+#     print()
+
+
+# a = dict((('德玛西亚之力','盖伦'),('弗雷尔卓德','布隆')))
+# print(a)
+# #添加一个元素
+# a['n']='1'
+# print(a)
+# #替换n的值
+# a['n']='2'
+# print(a)
+# #删除一个元素
+# # del a['n']
+# # print(a)
+# if 'n' in a:
+#     del a['n']
+# print(a)
+# set1 = set('初听不知曲中意')
+# print(set1)
+# pf = set(['1','2','3'])
+# print('a的值有：',pf)
+def a(x,y):
+    for q in range(x,y):
+        for w in range(x,q+1):
+            print('{}*{}={}'.format(w,q,q*w))
+a(1,3)
+
+
+
+
+
+
+
+
+
+
+
+
+
