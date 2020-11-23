@@ -10,7 +10,7 @@ import pymysql
 db = pymysql.connect(host='172.31.238.117',user='root',password='root123',charset='utf8',
                      cursorclass=pymysql.cursors.DictCursor)
 cursor=db.cursor()
-cursor.execute('SELECT agv_code FROM evo_rcs.basic_agv WHERE id=1')
+cursor.execute('SELECT * FROM evo_rcs.basic_agv WHERE id=1')
 a=cursor.fetchall()
 for b in a:
     print(b)

@@ -1,3 +1,9 @@
+# _*_ coding : UTF-8 _*_
+# 开发团队 : 火星团队
+# 开发人员 : hcx
+# 开发时间 : 2020/10/10 15:12
+# 文件名称 : 
+# 开发工具 : PyCharm
 import json
 import os
 from datetime import timedelta
@@ -12,7 +18,7 @@ app.config['PERMANENT_SESSION_LIFETIME']=timedelta(days=7) #设置session的保�
 UPLOAD_FOLDER='upload'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-@app.route('/tciOutSide_v1.0/AGV/GetBinNoArea',methods=['POST','GET','OPTIONS'],strict_slashes=False)
+@app.route('/tciOutSide_v1.0/AGV/GetAbnormalInfor',methods=['POST','GET','OPTIONS'],strict_slashes=False)
 def workbin_report():
     get_value = json.loads(request.get_data(as_text=True))
     print(get_value)

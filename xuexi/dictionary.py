@@ -230,8 +230,25 @@ from decimal import Decimal
 # f.close()
 
 
+#定义一个函数
+def a(c):
+    print("原值：",c)
+    c+=c
+#调用函数
+b='qqqqqqqq'
+a(b)
+print('调用后：',b)
+d=[{'q':'1','w':'2','e':'3'}]
+a(d)
+print('调用后',d)
 
 
+def printplayer(*name):
+    print('\n我最喜欢的球员：')
+    for item in name:
+        print(item)
+printplayer(1)
+printplayer(2,3,4)
 
 
 
