@@ -27,17 +27,17 @@ tasksl = {
     },
 }
 
-@app.route('/tciOutSide_v1.0/AGV/GetAbnormalInfor', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
+@app.route('/apicallback/quicktron/equipment.access.request', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
 def get_taskss():
     get_value = json.loads(request.get_data(as_text=True))
     print(get_value)
     return jsonify(taskss)
 
-@app.route('/tciOutSide_v1.0/AGV/GetBinNoArea', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/sl
+@app.route('/apicallback/quicktron/robotjob.report', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/sl
 def get_tasksl():
     get_value = json.loads(request.get_data(as_text=True))
     print(get_value)
     return jsonify(tasksl)
 
 if __name__ == '__main__':
-    app.run(host = '172.31.251.192',port = 9999,debug = True)
+    app.run(host = '172.31.224.49',port = 1234,debug = True)
