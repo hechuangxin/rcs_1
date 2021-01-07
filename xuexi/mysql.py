@@ -7,7 +7,7 @@
 
 
 import pymysql
-db = pymysql.connect(host='172.31.238.117',user='root',password='root123',charset='utf8',
+db = pymysql.connect(host='172.31.236.76',user='root',password='123456',charset='utf8',
                      cursorclass=pymysql.cursors.DictCursor)
 cursor=db.cursor()
 cursor.execute('SELECT * FROM evo_rcs.basic_agv WHERE id=1')
