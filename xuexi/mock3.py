@@ -12,28 +12,66 @@ app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 
 taskss = {
-    "code": 0,
-    "msg": "OK",
-    "data": {
-        },
-    "traceId": "dp1r"
+	"header": {
+		"requestId": "5f643ece-dc53-4d55-8e5f-d1e2dfd6a6d0",
+		"timestamp": "2019-06-01 12:28:38",
+		"version": "2.0"
+	},
+	"body": {
+		"success": "true",
+		"code": "OK",
+		"message": "业务请求处理成功",
+		"data": {
+			"event": {}
+		}
+	}
 }
+
+# taska = {
+# 	"header": {
+# 		"requestId": "5f643ece-dc53-4d55-8e5f-d1e2dfd6a6d0",
+# 		"timestamp": "2019-06-01 12:28:38",
+# 		"version": "2.0"
+# 	},
+# 	"body": {
+# 		"success": "true",
+# 		"code": "OK",
+# 		"message": "业务请求处理成功",
+# 		"data": {
+# 			"event": {}
+# 		}
+# 	}
+# }
 
 tasksl = {
-    "code": 0,
-    "data": {
-        "waybillStatus": "10",
-        "deliveryAbbreviationAddress": "深圳",
-    },
+	"header": {
+		"requestId": "5f643ece-dc53-4d55-8e5f-d1e2dfd6a6d0",
+		"timestamp": "2019-06-01 12:28:38",
+		"version": "2.0"
+	},
+	"body": {
+		"success": "true",
+		"code": "OK",
+		"message": "业务请求处理成功",
+		"data": {
+			"event": {}
+		}
+	}
 }
 
-@app.route('/apicallback/quicktron/equipment.access.request', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
+@app.route('/apicallback/quicktron/job', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
 def get_taskss():
     get_value = json.loads(request.get_data(as_text=True))
     print(get_value)
     return jsonify(taskss)
+# @app.route('/apicallback/quicktron/agv', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
+# def get_taska():
+#     get_value = json.loads(request.get_data(as_text=True))
+#     print(get_value)
+#     return jsonify(taska)
 
-@app.route('/apicallback/quicktron/robotjob.report', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/sl
+
+@app.route('/apicallback/quicktron/avoid', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/sl
 def get_tasksl():
     get_value = json.loads(request.get_data(as_text=True))
     print(get_value)
