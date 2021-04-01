@@ -140,7 +140,6 @@ def a(x,y):
         for w in range(x,q+1):
             print('{}*{}={}'.format(w,q,q*w))
 a(1,3)
-l
 
 
 
