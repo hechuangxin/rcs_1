@@ -19,14 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment="2-23">
-      <change afterPath="$PROJECT_DIR$/for循环/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for循环/任务.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment="4-1">
+      <change afterPath="$PROJECT_DIR$/xuexi/web.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuexi/if-else.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/if-else.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuexi/mock3.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/mock3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuexi/webauto.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/webauto.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,28 +60,7 @@
       <recent name="D:\软件\rcs\xuexi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.webauto">
-    <configuration name="ClassName" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rcs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xuexi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/ClassName.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.web">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rcs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,6 +124,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="web" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xuexi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/web.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="webauto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rcs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.webauto" />
+        <item itemvalue="Python.web" />
         <item itemvalue="Python.mock3" />
+        <item itemvalue="Python.webauto" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.mysql" />
-        <item itemvalue="Python.ClassName" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614065818114</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="4-1">
+      <created>1617268928536</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1617268928536</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,57 +416,66 @@
     <MESSAGE value="1-07" />
     <MESSAGE value="1-07-1" />
     <MESSAGE value="2-23" />
-    <option name="LAST_COMMIT_MESSAGE" value="2-23" />
+    <MESSAGE value="4-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="4-1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="567" y="147" key="FileChooserDialogImpl" timestamp="1610071164397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="567" y="147" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610071164397" />
-    <state width="1259" height="141" key="GridCell.Tab.0.bottom" timestamp="1617266951241">
+    <state width="1259" height="141" key="GridCell.Tab.0.bottom" timestamp="1618228039983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1899" height="247" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1614932861535" />
-    <state width="1259" height="141" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1617266951241" />
-    <state width="1259" height="247" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614850941478" />
-    <state width="1259" height="141" key="GridCell.Tab.0.center" timestamp="1617266951239">
+    <state width="1259" height="141" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029163" />
+    <state width="1259" height="141" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1618228039983" />
+    <state width="1259" height="141" key="GridCell.Tab.0.center" timestamp="1618228039983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1899" height="247" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1614932861534" />
-    <state width="1259" height="141" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1617266951239" />
-    <state width="1259" height="247" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614850941478" />
-    <state width="1259" height="141" key="GridCell.Tab.0.left" timestamp="1617266951239">
+    <state width="1259" height="141" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029162" />
+    <state width="1259" height="141" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1618228039983" />
+    <state width="1259" height="141" key="GridCell.Tab.0.left" timestamp="1618228039983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1899" height="247" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1614932861534" />
-    <state width="1259" height="141" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1617266951239" />
-    <state width="1259" height="247" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614850941478" />
-    <state width="1259" height="141" key="GridCell.Tab.0.right" timestamp="1617266951241">
+    <state width="1259" height="141" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029162" />
+    <state width="1259" height="141" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1618228039983" />
+    <state width="1259" height="141" key="GridCell.Tab.0.right" timestamp="1618228039983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1899" height="247" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1614932861535" />
-    <state width="1259" height="141" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1617266951241" />
-    <state width="1259" height="247" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614850941478" />
-    <state width="1259" height="163" key="GridCell.Tab.1.bottom" timestamp="1617248642233">
+    <state width="1259" height="141" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029162" />
+    <state width="1259" height="141" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618228039983" />
+    <state width="1259" height="163" key="GridCell.Tab.1.bottom" timestamp="1617689535660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1617248642233" />
-    <state width="1259" height="163" key="GridCell.Tab.1.center" timestamp="1617248642232">
+    <state width="1259" height="163" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1617689535660" />
+    <state width="1259" height="163" key="GridCell.Tab.1.center" timestamp="1617689535660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1617248642232" />
-    <state width="1259" height="163" key="GridCell.Tab.1.left" timestamp="1617248642232">
+    <state width="1259" height="163" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1617689535660" />
+    <state width="1259" height="163" key="GridCell.Tab.1.left" timestamp="1617689535660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1617248642232" />
-    <state width="1259" height="163" key="GridCell.Tab.1.right" timestamp="1617248642233">
+    <state width="1259" height="163" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1617689535660" />
+    <state width="1259" height="163" key="GridCell.Tab.1.right" timestamp="1617689535660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1617248642233" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1614065835816">
+    <state width="1259" height="163" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1617689535660" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1618215732749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1614065835816" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1618215732749" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1617268944343">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1617268944343" />
     <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609989838557" />
     <state x="439" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617256345904">
       <screen x="0" y="0" width="1280" height="680" />
