@@ -53,7 +53,7 @@ def get_taskss():
     get_value = json.loads(request.get_data(as_text=True))
     print(get_value)
     return jsonify(taskss)
-@app.route('/apicallback/quicktron/agv', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
+@app.route('/apicallback/quicktron/avoid', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
 def get_taska():
     get_value = json.loads(request.get_data(as_text=True))
     print(get_value)
@@ -67,6 +67,6 @@ def get_tasksl():
     return jsonify(tasksl)
 
 if __name__ == '__main__':
-    app.run(host = '172.31.224.49',port = 1234,debug = True)
+    app.run(host = '172.31.219.121',port = 1234,debug = True)
 # if __name__ == '__main__':
-#     app.run(host = '172.31.254.144',port = 1234,debug = True)
+#     app.run(host = '172.31.252.42',port = 1234,debug = True)

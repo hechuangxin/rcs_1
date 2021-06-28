@@ -4,17 +4,26 @@
 # 开发时间 : 2020/10/10 15:12
 # 文件名称 : 
 # 开发工具 : PyCharm
-#get接口调用
-import urllib.request
-# import urllib2
+# from urllib import request  # 导入request模块
+# import chardet  # 导入chardet编码识别模块
+#
+# if __name__ == "__main__":
+#     response = request.urlopen("http://172.31.236.33/evo/getMenus?localePrefix=client.&locale=zh-CN")  # 打开网站
+#     html = response.read()  # 读取内容
+#
+#     charset = chardet.detect(html)  # 获取编码格式
+#     html = html.decode(charset["encoding"])  # 解码
+#     print(html)
+import requests
+import json
 
-get_url = "http://172.31.236.33/evo/tetris/warehouseBasic/warehouse/page"
-cookie_headers = {
-        "Cookie" : "EGG_SESS=DW-nkVs9l6ZjU0tpyXVrDpOpi6Ed58ehroo4wntKUss9eZ1R-lff9CDZ384d3Vlsg5yuhHvbYypS6ki0iaP8TyqetZ2v-J9rcWCX_lZ2zfIDwxsv7V_230FF119DIdKeF_oVJoJUZcGqXhPJPZXTabq-fQmwYmvOl64YCDFkwC5ZbzP1zzUppxleiNFO7KBAASBrSzJqLzdPYUocwZ_ata24iUINzsmqCRzWKyO-SbT76SxqX0LeIoSpoAG6cgnPkehnRdcn1iuXOTvOrYVuDUXWzBMsO6UDFz3aXYvCS8UulZQhuifRL4K8VC0hnnQgX3rk4I8K_cTh1XU4OqTSfnFr6dxYkmWsYtB3I0CuzqTHcfV323nrSuCtKp5dtq16; locale=zh-cn"
+args_data = {
+        'id':'321',
+        'name':'cba'
 }
-req = urllib2.Request(url=get_url,headers=cookie_headers)
-res_data = urllib2.urlopen(req)
-res = res_data.read()
-print(res)
-
-# a = urllib.request.urlopen("www.baidu.com")
+url='http://172.31.236.33:7011/evo/tetris/warehouseBasic/warehouse/page'
+pdata = json.dumps(args_data)
+headers = {'Content-Type': 'application/json',"Cookie":"EGG_SESS=DW-nkVs9l6ZjU0tpyXVrDpOpi6Ed58ehroo4wntKUss9eZ1R-lff9CDZ384d3Vlsg5yuhHvbYypS6ki0iaP8TyqetZ2v-J9rcWCX_lZ2zfIDwxsv7V_230FF119DIdKeF_oVJoJUZcGqXhPJPZXTabq-fQmwYmvOl64YCDFkwC5ZbzP1zzUppxleiNFO7KBAASBrSzJqLzdPYUocwZ_atdBzzdX_A_3lniLuaG-jKKOy7GTcVAgl6UyXLdjpVkjttqDnZYkJvi4-6-o57M5EH5SgJCbEi6RVNzk-xRS9-SrvEOfruGhltmKladoAStJIDK_6DTfiGSVjvY-fQcLUIYhHb804SS5xOYrCKS07oc_xkRFLnG_qd8kWMh4Jz1BA"}
+res = requests.get(url, data=pdata, headers=headers)
+print(res.text)
+print(type(res))

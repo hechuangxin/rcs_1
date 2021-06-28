@@ -1,3 +1,4 @@
+import sys
 # a = int(input("请输入中奖号码："))
 # b = int(input("猜个数："))
 # if a == 123:
@@ -135,14 +136,35 @@
 # print(set1)
 # pf = set(['1','2','3'])
 # print('a的值有：',pf)
-def a(x,y):
-    for q in range(x,y):
-        for w in range(x,q+1):
-            print('{}*{}={}'.format(w,q,q*w))
-a(1,3)
+# def a(x,y):
+#     for q in range(x,y):
+#         for w in range(x,q+1):
+#             print('{}*{}={}'.format(w,q,q*w))
+# a(1,3)
+# list1=[1,2,3]
+# print((',').join(str(x) for x in list1))
+# for a in range(1,5):
+#     for b in range(1,5):
+#         for c in range(1,5):
+#             if (a !=b) and (a!=c) and (b!=c):
+#                 print(a,b,c)
 
+# a = [22,3,45,1,33,25,2]
+# for b in range(len(a)):
+#     c =a[b]
+#     if c==1:
+#         break
+#     print(c)
+#
+# print(max(a))
+for char in 'PYTHON STRING':
+    if char == ' ':
+        break
 
+    print(char, end='')
 
+    if char == 'O':
+        continue
 
 
 
