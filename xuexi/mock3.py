@@ -11,8 +11,13 @@ app = Flask(__name__)
 # 增加配置，支持中文显示
 app.config['JSON_AS_ASCII'] = False
 
-taskss = {
-	"code": "200", "msg": "请求成功", "data": 1
+taskss ={
+	"header": {},
+	"body": {
+		"success": "true",
+		"code": "200",
+		"message": "Return success"
+	}
 }
 
 taska = {
@@ -48,25 +53,25 @@ tasksl = {
 }
 
 
-@app.route('/api/controlGate/open/door', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
+@app.route('/api/ReplenishOrderCompleteEvent', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
 def get_taskss():
     get_value = json.loads(request.get_data(as_text=True))
     print(get_value)
     return jsonify(taskss)
-@app.route('/apicallback/quicktron/avoid', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
+@app.route('/apicallback/quicktron/dcs/job', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
 def get_taska():
     get_value = json.loads(request.get_data(as_text=True))
     print(get_value)
     return jsonify(taska)
 
 
-@app.route('/apicallback/quicktron/job', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/sl
+@app.route('/apicallback/quicktron/wms/job', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/sl
 def get_tasksl():
     get_value = json.loads(request.get_data(as_text=True))
     print(get_value)
     return jsonify(tasksl)
 
 if __name__ == '__main__':
-    app.run(host = '172.31.219.121',port = 1234,debug = True)
+    app.run(host = '172.31.254.136',port = 1234,debug = True)
 # if __name__ == '__main__':
 #     app.run(host = '172.31.252.42',port = 1234,debug = True)

@@ -8,7 +8,7 @@ from xuexi.getpoint import select_map
 
 #sql = 'select json_data from evo_rcs.basic_map where map_state="OnLine"'
 
-result = select_map("172.31.238.158")
+result = select_map("172.31.238.134")
 stronge = result[2]
 list_result = []
 print(stronge)

@@ -6,7 +6,7 @@ import json
 
 import pymysql
 
-db = pymysql.connect(host='172.31.238.158', user='root',port=32457, password='123456', charset="utf8")
+db = pymysql.connect(host='172.31.238.143', user='root',port=3306, password='root123', charset="utf8")
 cursor = db.cursor()
 sql = 'select json_data from evo_rcs.basic_map where map_state="OnLine"'
 cursor.execute(sql)
