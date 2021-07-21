@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment="6-28">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuexi/mock3.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/mock3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuexi/pointcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/pointcode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuexi/service_ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/service_ip.py" afterDir="false" />
-    </list>
+    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment="7-20" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -391,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624878843320</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="7-20">
+      <created>1626775446438</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1626775446438</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,7 +409,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="0707 dictionary" />
     <MESSAGE value="0708" />
     <MESSAGE value="0708_01" />
     <MESSAGE value=" 123" />
@@ -432,7 +433,8 @@
     <MESSAGE value="4-1" />
     <MESSAGE value="4-12" />
     <MESSAGE value="6-28" />
-    <option name="LAST_COMMIT_MESSAGE" value="6-28" />
+    <MESSAGE value="7-20" />
+    <option name="LAST_COMMIT_MESSAGE" value="7-20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1618297510345">
@@ -443,30 +445,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1625487738617" />
-    <state width="1259" height="203" key="GridCell.Tab.0.bottom" timestamp="1626175612298">
+    <state width="1259" height="203" key="GridCell.Tab.0.bottom" timestamp="1626775435887">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="141" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029163" />
     <state width="1259" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1707.920@0.0.1280.680" timestamp="1625726392158" />
-    <state width="1259" height="203" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626175612298" />
-    <state width="1259" height="203" key="GridCell.Tab.0.center" timestamp="1626175612298">
+    <state width="1259" height="203" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626775435887" />
+    <state width="1259" height="203" key="GridCell.Tab.0.center" timestamp="1626775435887">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="141" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029162" />
     <state width="1259" height="165" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1707.920@0.0.1280.680" timestamp="1625726392157" />
-    <state width="1259" height="203" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626175612298" />
-    <state width="1259" height="203" key="GridCell.Tab.0.left" timestamp="1626175612298">
+    <state width="1259" height="203" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626775435887" />
+    <state width="1259" height="203" key="GridCell.Tab.0.left" timestamp="1626775435886">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="141" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029162" />
     <state width="1259" height="165" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1707.920@0.0.1280.680" timestamp="1625726392157" />
-    <state width="1259" height="203" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626175612298" />
-    <state width="1259" height="203" key="GridCell.Tab.0.right" timestamp="1626175612298">
+    <state width="1259" height="203" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626775435886" />
+    <state width="1259" height="203" key="GridCell.Tab.0.right" timestamp="1626775435887">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="141" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029162" />
     <state width="1259" height="165" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1707.920@0.0.1280.680" timestamp="1625726392157" />
-    <state width="1259" height="203" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626175612298" />
+    <state width="1259" height="203" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626775435887" />
     <state width="1259" height="163" key="GridCell.Tab.1.bottom" timestamp="1624947819042">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -487,10 +489,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1618297548787" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1624878860431">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1626775490137">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1624878860431" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626775490137" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
