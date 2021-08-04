@@ -6,35 +6,30 @@
 # 开发工具 : PyCharm
 from flask import abort, jsonify, Flask, request, Response
 import json
-
+import xml.sax
+import pymysql
+import random
 app = Flask(__name__)
 # 增加配置，支持中文显示
 app.config['JSON_AS_ASCII'] = False
 
-taskss ={
-	"header": {},
-	"body": {
-		"success": "true",
-		"code": "200",
-		"message": "Return success"
-	}
-}
+#连接数据库
+# evo_conn = pymysql.connect(host="172.31.238.143",user="root", password="root123", charset="utf8")
+# evo_cursor = evo_conn.cursor()
+# evo_cursor.execute('SELECT id FROM evo_wes_basic.basic_sku WHERE state = "effective" AND sn_enabled = 0 ORDER BY rand() LIMIT 3;')
+# a = evo_cursor.fetchall()
+# sku_id = random.choice(a)[0]
+# print(sku_id)
 
-taska = {
-	"header": {
-		"requestId": "5f643ec0",
-		"timestamp": "2019-06-01 12:28:38",
-		"version": "2.0"
-	},
-	"body": {
-		"success":'true',
-		"code": "OK",
-		"message": "业务请求处理成功",
-		"data": {
-			"event": {}
-		}
-	}
-}
+taskss ='<?xml version="1.0" encoding="UTF-8" ?> \
+<header /> \
+<body> \
+<success>true</success> \
+<code>{}</code> \
+<message>Return success</message> \
+</body>'
+
+
 
 tasksl = {
 	"header": {
@@ -53,16 +48,35 @@ tasksl = {
 }
 
 
-@app.route('/api/ReplenishOrderCompleteEvent', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
+@app.route('/sce-openapi-webapp/fh/authorized/workRequest', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
 def get_taskss():
-    get_value = json.loads(request.get_data(as_text=True))
+    get_value = request.get_data()
+	#get_value2 = request.get_data
     print(get_value)
     return jsonify(taskss)
+
 @app.route('/apicallback/quicktron/dcs/job', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
 def get_taska():
-    get_value = json.loads(request.get_data(as_text=True))
-    print(get_value)
-    return jsonify(taska)
+	evo_conn = pymysql.connect(host="172.31.238.143", user="root", password="root123", charset="utf8")
+	evo_cursor = evo_conn.cursor()
+	evo_cursor.execute(
+		'SELECT id FROM evo_wes_basic.basic_sku WHERE state = "effective" AND sn_enabled = 0 ORDER BY rand() LIMIT 3;')
+	a = evo_cursor.fetchall()
+	sku_id = random.choice(a)[0]
+	get_value = json.loads(request.get_data(as_text=True))
+	print(get_value)
+	return jsonify({
+	"header": "{}".format(sku_id),
+	"body": {
+		"success":'true',
+		"code": "OK",
+		"message": "业务请求处理成功",
+		"data": {
+			"event": {}
+		}
+	}
+})
+
 
 
 @app.route('/apicallback/quicktron/wms/job', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/sl
@@ -72,6 +86,6 @@ def get_tasksl():
     return jsonify(tasksl)
 
 if __name__ == '__main__':
-    app.run(host = '172.31.254.136',port = 1234,debug = True)
+    app.run(host = '172.31.219.121',port = 1234,debug = True)
 # if __name__ == '__main__':
 #     app.run(host = '172.31.252.42',port = 1234,debug = True)

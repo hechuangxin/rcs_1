@@ -19,8 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment="7-21">
+    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment="7-23">
+      <change afterPath="$PROJECT_DIR$/xuexi/select_sku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuexi/weipinhui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuexi/mock3.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/mock3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuexi/service_ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/service_ip.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +62,8 @@
       <recent name="D:\软件\rcs\xuexi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.daletou">
-    <configuration name="daletou" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.mock3">
+    <configuration name="111111" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rcs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,28 +75,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/daletou.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="if-else" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rcs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xuexi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/if-else.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/111111.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pointcode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="select_sku" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rcs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,7 +117,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/pointcode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/select_sku.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,13 +147,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="weipinhui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xuexi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/weipinhui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.daletou" />
         <item itemvalue="Python.mock3" />
+        <item itemvalue="Python.weipinhui" />
+        <item itemvalue="Python.select_sku" />
         <item itemvalue="Python.service_ip" />
-        <item itemvalue="Python.pointcode" />
-        <item itemvalue="Python.if-else" />
+        <item itemvalue="Python.111111" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626835589359</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="7-21">
+      <created>1627024839851</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1627024839851</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,61 +457,63 @@
     <option name="LAST_COMMIT_MESSAGE" value="7-21" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="267" y="19" key="#Inspections" timestamp="1618297510345">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627884073768">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1618297510345" />
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625487738617">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1627884073768" />
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1625487738617" />
-    <state width="1259" height="203" key="GridCell.Tab.0.bottom" timestamp="1626835668024">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="2539" height="197" key="GridCell.Tab.0.bottom" timestamp="1628076934309">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1259" height="141" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029163" />
     <state width="1259" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1707.920@0.0.1280.680" timestamp="1625726392158" />
-    <state width="1259" height="203" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626835668024" />
-    <state width="1259" height="203" key="GridCell.Tab.0.center" timestamp="1626835668024">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1259" height="191" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1628055928801" />
+    <state width="2539" height="197" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1628076934309" />
+    <state width="1259" height="240" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1628060205583" />
+    <state width="2539" height="197" key="GridCell.Tab.0.center" timestamp="1628076934309">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1259" height="141" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029162" />
     <state width="1259" height="165" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1707.920@0.0.1280.680" timestamp="1625726392157" />
-    <state width="1259" height="203" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626835668024" />
-    <state width="1259" height="203" key="GridCell.Tab.0.left" timestamp="1626835668024">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1259" height="191" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1628055928800" />
+    <state width="2539" height="197" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1628076934309" />
+    <state width="1259" height="240" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1628060205583" />
+    <state width="2539" height="197" key="GridCell.Tab.0.left" timestamp="1628076934309">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1259" height="141" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029162" />
     <state width="1259" height="165" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1707.920@0.0.1280.680" timestamp="1625726392157" />
-    <state width="1259" height="203" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626835668024" />
-    <state width="1259" height="203" key="GridCell.Tab.0.right" timestamp="1626835668024">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1259" height="191" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1628055928800" />
+    <state width="2539" height="197" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1628076934309" />
+    <state width="1259" height="240" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1628060205583" />
+    <state width="2539" height="197" key="GridCell.Tab.0.right" timestamp="1628076934309">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1259" height="141" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@0.0.1280.680" timestamp="1618218029162" />
     <state width="1259" height="165" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1707.920@0.0.1280.680" timestamp="1625726392157" />
-    <state width="1259" height="203" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626835668024" />
-    <state width="1259" height="163" key="GridCell.Tab.1.bottom" timestamp="1624947819042">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1259" height="191" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1628055928801" />
+    <state width="2539" height="197" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1628076934309" />
+    <state width="1259" height="240" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1628060205583" />
+    <state width="2539" height="399" key="GridCell.Tab.1.bottom" timestamp="1628066939787">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
+    <state width="2539" height="399" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1628066939787" />
     <state width="1259" height="163" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1624947819042" />
-    <state width="1259" height="163" key="GridCell.Tab.1.center" timestamp="1624947819042">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="2539" height="399" key="GridCell.Tab.1.center" timestamp="1628066939786">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
+    <state width="2539" height="399" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1628066939786" />
     <state width="1259" height="163" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1624947819042" />
-    <state width="1259" height="163" key="GridCell.Tab.1.left" timestamp="1624947819042">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="2539" height="399" key="GridCell.Tab.1.left" timestamp="1628066939786">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
+    <state width="2539" height="399" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1628066939786" />
     <state width="1259" height="163" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1624947819042" />
-    <state width="1259" height="163" key="GridCell.Tab.1.right" timestamp="1624947819042">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="2539" height="399" key="GridCell.Tab.1.right" timestamp="1628066939787">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
+    <state width="2539" height="399" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1628066939787" />
     <state width="1259" height="163" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1624947819042" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1618297548787">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1627024877692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1618297548787" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1626836261060">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1627024877692" />
     <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626836261060" />
   </component>
   <component name="XDebuggerManager">
