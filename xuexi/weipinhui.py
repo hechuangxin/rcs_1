@@ -20,18 +20,18 @@ if __name__ == '__main__':
 def get_task01():
     get_value = request.get_data()
     print(get_value)
-    return jsonify(task01)
-
-task01 ='<?xml version="1.0" encoding="UTF-8" ?> \
+    return ('<?xml version="1.0" encoding="UTF-8" ?> \
 <header /> \
 <body> \
 <success>true</success> \
 <code>{}</code> \
 <message>Return success</message> \
-</body>'
+</body>'.format())
+
+
 
 #工作提供握手接口
-@app.route('/sce-openapi-webapp/fh/authorized/workRequest', methods=['GET','POST'])
+@app.route('/sce-openapi-webapp/fh/authorized/postReceivedWork', methods=['GET','POST'])
 def get_task02():
     get_value = request.get_data()
     print(get_value)
@@ -46,7 +46,7 @@ task02 = '<?xml version="1.0" encoding="UTF-8" ?> \
 </body>'
 
 #唯品会工作反馈接口
-@app.route('/sce-openapi-webapp/fh/authorized/workRequest', methods=['GET','POST'])
+@app.route('/sce-openapi-webapp/fh/authorized/postCompletedWork', methods=['GET','POST'])
 def get_task03():
     get_value = request.get_data()
     print(get_value)
@@ -61,7 +61,7 @@ task03 = '<?xml version="1.0" encoding="UTF-8" ?> \
 </body>'
 
 #唯品会交接箱提供接口
-@app.route('/sce-openapi-webapp/fh/authorized/workRequest', methods=['GET','POST'])
+@app.route('/sce-openapi-webapp/fh/authorized/getWorkContainer', methods=['GET','POST'])
 def get_task04():
     get_value = request.get_data()
     print(get_value)
@@ -77,7 +77,7 @@ task04 = '<?xml version="1.0" encoding="UTF-8" ?> \
 
 
 #唯品会交接箱提供握手接口
-@app.route('/sce-openapi-webapp/fh/authorized/workRequest', methods=['GET','POST'])
+@app.route('/sce-openapi-webapp/fh/authorized/postReceivedWorkContainer', methods=['GET','POST'])
 def get_task05():
     get_value = request.get_data()
     print(get_value)
@@ -92,7 +92,7 @@ task05 = '<?xml version="1.0" encoding="UTF-8" ?> \
 </body>'
 
 #唯品会交接箱反馈接口
-@app.route('/sce-openapi-webapp/fh/authorized/workRequest', methods=['GET','POST'])
+@app.route('/sce-openapi-webapp/fh/authorized/postCompletedWorkContainer', methods=['GET','POST'])
 def get_task06():
     get_value = request.get_data()
     print(get_value)
@@ -107,7 +107,7 @@ task06 = '<?xml version="1.0" encoding="UTF-8" ?> \
 </body>'
 
 #唯品会事件提供接口
-@app.route('/sce-openapi-webapp/fh/authorized/workRequest', methods=['GET','POST'])
+@app.route('/sce-openapi-webapp/fh/authorized/eventRequest', methods=['GET','POST'])
 def get_task07():
     get_value = request.get_data()
     print(get_value)
@@ -122,13 +122,13 @@ task07 = '<?xml version="1.0" encoding="UTF-8" ?> \
 </body>'
 
 #唯品会事件提供握手接口
-@app.route('/sce-openapi-webapp/fh/authorized/workRequest', methods=['GET','POST'])
-def get_task07():
+@app.route('/sce-openapi-webapp/fh/authorized/postReceivedEvent', methods=['GET','POST'])
+def get_task08():
     get_value = request.get_data()
     print(get_value)
-    return jsonify(task07)
+    return jsonify(task08)
 
-task07 = '<?xml version="1.0" encoding="UTF-8" ?> \
+task08 = '<?xml version="1.0" encoding="UTF-8" ?> \
 <header /> \
 <body> \
 <success>true</success> \
@@ -136,11 +136,35 @@ task07 = '<?xml version="1.0" encoding="UTF-8" ?> \
 <message>Return success</message> \
 </body>'
 
+#唯品会事件反馈接口
+@app.route('/sce-openapi-webapp/fh/authorized/eventInfoRequest', methods=['GET','POST'])
+def get_task09():
+    get_value = request.get_data()
+    print(get_value)
+    return jsonify(task09)
 
+task09 = '<?xml version="1.0" encoding="UTF-8" ?> \
+<header /> \
+<body> \
+<success>true</success> \
+<code>{}</code> \
+<message>Return success</message> \
+</body>'
 
+#周转箱占用接口
+@app.route('/sce-openapi-webapp/fh/authorized/basContainerRequest', methods=['GET','POST'])
+def get_task09():
+    get_value = request.get_data()
+    print(get_value)
+    return jsonify(task09)
 
-
-
+task09 = '<?xml version="1.0" encoding="UTF-8" ?> \
+<header /> \
+<body> \
+<success>true</success> \
+<code>{}</code> \
+<message>Return success</message> \
+</body>'
 
 
 
