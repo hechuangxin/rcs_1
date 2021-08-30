@@ -6,6 +6,7 @@
 # 开发工具 : PyCharm
 import pymysql
 import random
+import time
 evo_conn = pymysql.connect(host="172.31.238.143", user="root", password="root123", charset="utf8")
 evo_cursor = evo_conn.cursor()
 evo_cursor.execute(
@@ -13,6 +14,9 @@ evo_cursor.execute(
 a = evo_cursor.fetchall()
 work_no = random.choice(a)[0]
 print(work_no)
+
+time_stamp = int(time.time())
+print(time_stamp)
 
 
 

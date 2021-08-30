@@ -31,10 +31,10 @@ app = Flask(__name__)
 
 #工作提供接口
 @app.route('/fh/authorized/workRequest', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
-def get_task01():
+def work_task01():
     time_stamp = int(time.time())
     time1=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    evo_conn = pymysql.connect(host="172.31.238.143", user="root", password="root123", charset="utf8")
+    evo_conn = pymysql.connect(host="172.31.236.126", user="root", password="root123", charset="utf8")
     evo_cursor = evo_conn.cursor()
     evo_cursor.execute(
         'SELECT * FROM evo_wes_basic.basic_sku WHERE state = "effective" AND sn_enabled = 0 ORDER BY rand() LIMIT 3;')
@@ -104,10 +104,10 @@ def get_task01():
 
 #工作提供握手接口
 @app.route('/fh/authorized/postReceivedWork', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
-def get_task02():
+def work_task02():
     time_stamp = int(time.time())
-    get_value02 = request.get_data()
-    print(get_value02)
+    work_task02 = request.get_data()
+    print(work_task02)
     # DOMTree = xml.dom.minidom.parse(get_value02)
     # province_data = DOMTree.documentElement
     # provinces = get_value02.getElementsByTagName("id")
@@ -133,12 +133,44 @@ def get_task02():
   </body>\
 </root>'.format(time_stamp,time_stamp))
 
+#工作反馈接口
+@app.route('/fh/authorized/postCompletedWork', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
+def work_task03():
+    time_stamp = int(time.time())
+    work_task03 = request.get_data()
+    print(work_task03)
+    # DOMTree = xml.dom.minidom.parse(get_value02)
+    # province_data = DOMTree.documentElement
+    # provinces = get_value02.getElementsByTagName("id")
+    # print(provinces)
+    return ('<?xml version="1.0" encoding="utf-8"?>\
+    <root>\
+  <header>\
+    <appid>FH001</appid>\
+    <appkey>vip@FH001</appkey>\
+    <request_id>5a9281c9-0773-4cbf-a777-c4bff0b2e02d</request_id>\
+    <version>1.0</version>\
+  </header>\
+ <body>\
+    <item>\
+      <msgcode>{}</msgcode>\
+      <msg><![CDATA[Success]]></msg>\
+      <id>233</id>\
+    </item>\
+    <item>\
+      <msgcode>001{}</msgcode>\
+      <id>233</id>\
+    </item>\
+  </body>\
+</root>'.format(time_stamp,time_stamp))
+
+
 #事件提供接口
 @app.route('/fh/authorized/eventRequest', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
 def get_task03():
     time_stamp = int(time.time())
     time1=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    evo_conn = pymysql.connect(host="172.31.238.143", user="root", password="root123", charset="utf8")
+    evo_conn = pymysql.connect(host="172.31.236.126", user="root", password="root123", charset="utf8")
     evo_cursor = evo_conn.cursor()
     evo_cursor.execute(
         'SELECT work_no FROM evo_vip.vip_work WHERE work_type = "OUB_SHIP_PICK" AND state = "WAITING_EVENT" ORDER BY rand() LIMIT 3;')
@@ -156,24 +188,10 @@ def get_task03():
     </header>\
     <body>\
         <item>\
-            <id>11928</id>\
+            <id>1{}</id>\
             <warehouse_code>VIP_ZZ</warehouse_code>\
             <source_code>VIPS</source_code>\
             <destination_code>FH</destination_code>\
-            <event_type>INV_FULL_DIFF_RESERVE</event_type>\
-            <reference_type />\
-            <reference_no/>\
-            <action_time>{}</action_time>\
-            <remark />\
-            <reference>\
-                <reserve_time>2021-08-26 12:00:00.000</reserve_time>\
-            </reference>\
-        </item>\
-        <item>\
-            <id>11929</id>\
-            <warehouse_code>VIP_ZZ</warehouse_code>\
-            <source_code>FH</source_code>\
-            <destination_code>VIPS</destination_code>\
             <event_type>OUB_SHIP_PICK_START</event_type>\
             <reference_type />\
             <reference_no>{}</reference_no>\
@@ -182,12 +200,12 @@ def get_task03():
             <reference/>\
         </item>\
     </body>\
-</root>'.format(time1,work_no,time1))
+</root>'.format(time_stamp,work_no,time1))
 
 #事件提供握手接口
 @app.route('/fh/authorized/postReceivedEvent', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
 def get_task04():
-    evo_conn = pymysql.connect(host="172.31.238.143", user="root", password="root123", charset="utf8")
+    evo_conn = pymysql.connect(host="172.31.236.126", user="root", password="root123", charset="utf8")
     evo_cursor = evo_conn.cursor()
     evo_cursor.execute(
         'SELECT event_id FROM evo_vip.vip_event WHERE event_type = "OUB_SHIP_PICK_START" AND state="NEW" ORDER BY rand() LIMIT 3;')
@@ -222,6 +240,36 @@ def get_task04():
 </root>'.format(event_id,time_stamp))
 
 
+#事件反馈接口
+@app.route('/fh/authorized/eventInfoRequest', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/ss
+def event_task03():
+    time_stamp = int(time.time())
+    event_task03 = request.get_data()
+    print(event_task03)
+    # DOMTree = xml.dom.minidom.parse(get_value02)
+    # province_data = DOMTree.documentElement
+    # provinces = get_value02.getElementsByTagName("id")
+    # print(provinces)
+    return ('<?xml version="1.0" encoding="utf-8"?>\
+    <root>\
+  <header>\
+    <appid>FH001</appid>\
+    <appkey>vip@FH001</appkey>\
+    <request_id>5a9281c9-0773-4cbf-a777-c4bff0b2e02d</request_id>\
+    <version>1.0</version>\
+  </header>\
+ <body>\
+    <item>\
+      <msgcode>{}</msgcode>\
+      <msg><![CDATA[Success]]></msg>\
+      <id>233</id>\
+    </item>\
+    <item>\
+      <msgcode>001{}</msgcode>\
+      <id>233</id>\
+    </item>\
+  </body>\
+</root>'.format(time_stamp,time_stamp))
 
 
 wes = {
@@ -238,4 +286,4 @@ def get_wes():
     return jsonify(wes)
 
 if __name__ == '__main__':
-    app.run(host = '172.31.219.121',port = 1234,debug = True)
+    app.run(host = '172.31.254.145',port = 1234,debug = True)
