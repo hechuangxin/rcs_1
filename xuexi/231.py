@@ -7,16 +7,16 @@
 import pymysql
 import random
 import time
-evo_conn = pymysql.connect(host="172.31.238.143", user="root", password="root123", charset="utf8")
+evo_conn = pymysql.connect(host="172.31.236.126", user="root", password="root123", charset="utf8")
 evo_cursor = evo_conn.cursor()
 evo_cursor.execute(
-    'SELECT work_no FROM evo_vip.vip_work WHERE work_type = "OUB_SHIP_PICK" AND state = "WAITING_EVENT" ORDER BY rand() LIMIT 3;')
+    'SELECT * FROM evo_wes_basic.basic_sku WHERE state = "effective" AND sn_enabled = 0 ORDER BY rand() LIMIT 3;')
 a = evo_cursor.fetchall()
-work_no = random.choice(a)[0]
+work_no = random.choice(a)
 print(work_no)
 
-time_stamp = int(time.time())
-print(time_stamp)
+# time_stamp = int(time.time())
+# print(time_stamp)
 
 
 
