@@ -5,12 +5,16 @@
 # 文件名称 : test1.py
 # 开发工具 : PyCharm
 
-
+import random
 import pymysql
-db = pymysql.connect(host='172.31.236.76',user='root',password='123456',charset='utf8',
-                     cursorclass=pymysql.cursors.DictCursor)
-cursor=db.cursor()
-cursor.execute('SELECT * FROM evo_rcs.basic_agv WHERE id=1')
-a=cursor.fetchall()
-for b in a:
-    print(b)
+
+evo_conn = pymysql.connect(host="172.31.236.126", user="root", password="root123", charset="utf8")
+evo_cursor = evo_conn.cursor()
+evo_cursor.execute(
+    'SELECT * FROM evo_wes_basic.basic_sku WHERE id in(SELECT sku_id FROM evo_wes_inventory.level3_inventory ) ORDER BY RAND() LIMIT 3;')
+a = evo_cursor.fetchall()
+sku_name1 = random.choice(a)[3]
+sku_code1 = random.choice(a)[2]
+print(a)
+print(sku_code1)
+

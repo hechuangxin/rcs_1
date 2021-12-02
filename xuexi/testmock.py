@@ -1,0 +1,175 @@
+# _*_coding:UTF-8_*_
+# 开发团队:火星团队
+# 开发人员:hcx
+# 开发时间:2020/10/1015:12
+# 文件名称:
+# 开发工具:PyCharm
+import json
+import xml.sax
+import pymysql
+import random
+from flask import abort, jsonify, Flask, request, Response
+
+
+
+
+@app.route('/apicallback/quicktron/wms/job', methods=['GET','POST'])            #访问网址：http://127.0.0.1:6868/task/sl
+def get_wes():
+    get_value = json.loads(request.get_data(as_text=True))
+    print(get_value)
+    return ('<?xmlversion="1.0"encoding="utf-8"?>\
+<root> \
+<header> \
+       <appid>FH001</appid> \
+           <appkey>vip@FH001</appkey> \
+           <request_id>163655649043700061</request_id> \
+           <warehouse>VIP_NH</warehouse> \
+           <version>1.0</version> \
+           </header> \
+           <body> \
+           <item> \
+           <id>74233132</id> \
+           <warehouse_code>VIP_NH</warehouse_code> \
+           <source_code>VIPS</source_code> \
+           <destination_code>FH</destination_code> \
+           <action_type>NEW</action_type> \
+           <work_no>211110032270002-1</work_no> \
+           <work_type>FLOWPICK_MS</work_type> \
+           <lot_no></lot_no> \
+           <action_time>2021-11-1023:00:20.000</action_time> \
+           <remark> \
+           <![CDATA[]]> \
+           </remark> \
+           <reference> \
+           <![CDATA[]]> \
+           </reference> \
+           <line_count>1</line_count> \
+           <container_count>0</container_count> \
+           <inf_function>1</inf_function> \
+           <operation_type>FLOWPICK_MS</operation_type> \
+           <detailsclass=\"linked-hash-set\"> \
+           <item> \
+           <id>133416541</id> \
+           <container_code></container_code> \
+           <item_code>6903148268827</item_code> \
+           <item_desc> \
+           <![CDATA[【11.11钜惠】舒肤佳洗手沐浴洁面香皂6块装温和清洁家庭]]> \
+           </item_desc> \
+           <brand_name> \
+           <![CDATA[舒肤佳Safeguard]]> \
+           </brand_name> \
+           <item_cat1_code>7470</item_cat1_code> \
+           <item_cat1_name> \
+           <![CDATA[个人护理]]> \
+           </item_cat1_name> \
+           <item_cat2_code>1021</item_cat2_code> \
+           <item_cat2_name> \
+           <![CDATA[身体护理]]> \
+           </item_cat2_name> \
+           <item_cat3_code>390724</item_cat3_code> \
+           <item_cat3_name> \
+           <![CDATA[香皂]]> \
+           </item_cat3_name> \
+           <unit_item>件</unit_item> \
+           <item_size> \
+           <![CDATA[108g*6]]> \
+           </item_size> \
+           <item_color> \
+           <![CDATA[纯白108g*4＋柠檬108g*2]]> \
+           </item_color> \
+           <item_spec_class>LFCTR</item_spec_class> \
+           <gross_weight>0.000</gross_weight> \
+           <net_weight>0.000</net_weight> \
+           <weight_um>g</weight_um> \
+           <volume>0.000</volume> \
+           <volume_um></volume_um> \
+           <img>/upload/merchandise/pdcvis/105209/2020/0603/166/47034413-b856-488d-b17b-faf55fee729f_420_531.jpg</img> \
+           <qty>1.000</qty> \
+           <warehouse_code>VIP_NH</warehouse_code> \
+           <company_code>VIPS</company_code> \
+           <po_no>3731652073</po_no> \
+           <charge_code>3PL</charge_code> \
+           <vendor_code>105209</vendor_code> \
+           <inv_type>3PL</inv_type> \
+           <quality>100</quality> \
+           <mfg_date>2021-09-02</mfg_date> \
+           <exp_date>2024-09-01</exp_date> \
+           <sale_status>1</sale_status> \
+           <vip_wms_ids></vip_wms_ids> \
+           </item> \
+           </details> \
+           </item> \
+           <item> \
+           <id>74233133</id> \
+           <warehouse_code>VIP_NH</warehouse_code> \
+           <source_code>VIPS</source_code> \
+           <destination_code>FH</destination_code> \
+           <action_type>NEW</action_type> \
+           <work_no>211110032270010-2</work_no> \
+           <work_type>FLOWPICK_MS</work_type> \
+           <lot_no></lot_no> \
+           <action_time>2021-11-1023:00:20.000</action_time> \
+           <remark> \
+           <![CDATA[]]> \
+           </remark> \
+           <reference> \
+           <![CDATA[]]> \
+           </reference> \
+           <line_count>1</line_count> \
+           <container_count>0</container_count> \
+           <inf_function>1</inf_function> \
+           <operation_type>FLOWPICK_MS</operation_type> \
+           <detailsclass=\"linked-hash-set\"> \
+           <item> \
+           <id>133416542</id> \
+           <container_code></container_code> \
+           <item_code>6906618197153</item_code> \
+           <item_desc> \
+           <![CDATA[【去屑止痒强效控油】皇后牌苦参控油去屑洗发水500ml]]> \
+           </item_desc> \
+           <brand_name> \
+           <![CDATA[片仔癀]]> \
+           </brand_name> \
+           <item_cat1_code>7470</item_cat1_code> \
+           <item_cat1_name> \
+           <![CDATA[个人护理]]> \
+           </item_cat1_name> \
+           <item_cat2_code>1035</item_cat2_code> \
+           <item_cat2_name> \
+           <![CDATA[头发护理]]> \
+           </item_cat2_name> \
+           <item_cat3_code>1037</item_cat3_code> \
+           <item_cat3_name> \
+           <![CDATA[洗发水]]> \
+           </item_cat3_name> \
+           <unit_item>件</unit_item> \
+           <item_size> \
+           <![CDATA[500ml]]> \
+           </item_size> \
+           <item_color> \
+           <![CDATA[控油去屑]]> \
+           </item_color> \
+           <item_spec_class>AIRBAN,LFCTR</item_spec_class> \
+           <gross_weight>400.000</gross_weight> \
+           <net_weight>0.000</net_weight> \
+           <weight_um>g</weight_um> \
+           <volume>60840.000</volume> \
+           <volume_um></volume_um> \
+           <img>/upload/merchandise/pdcvis/604125/2021/0723/76/1fb1ab42-67ac-4f02-8bac-a30fb2260482_420_531.jpg</img> \
+           <qty>1.000</qty> \
+           <warehouse_code>VIP_NH</warehouse_code> \
+           <company_code>VIPS</company_code> \
+           <po_no>3731652576</po_no> \
+           <charge_code>3PL</charge_code> \
+           <vendor_code>604125</vendor_code> \
+           <inv_type>3PL</inv_type> \
+           <quality>100</quality> \
+           <mfg_date>2021-05-02</mfg_date> \
+           <exp_date>2024-05-01</exp_date> \
+           <sale_status>1</sale_status> \
+           <vip_wms_ids></vip_wms_ids> \
+           </item> \
+           </details> \
+           </item> \
+</body> \
+</root>"')

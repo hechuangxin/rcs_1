@@ -86,6 +86,6 @@ def get_tasksl():
     return jsonify(tasksl)
 
 if __name__ == '__main__':
-    app.run(host = '172.31.219.121',port = 1234,debug = True)
+    app.run(host = '172.31.247.83',port = 1234,debug = True)
 # if __name__ == '__main__':
 #     app.run(host = '172.31.252.42',port = 1234,debug = True)
