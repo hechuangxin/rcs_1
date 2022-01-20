@@ -19,17 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment="9-9">
-      <change afterPath="$PROJECT_DIR$/xuexi/chukudan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuexi/ms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuexi/pandian.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuexi/replenish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuexi/testmock.py" afterDir="false" />
+    <list default="true" id="0922f577-1af3-4802-82a4-d4e49f8e3eca" name="Default Changelist" comment="12-2">
+      <change afterPath="$PROJECT_DIR$/xuexi/A51352haitao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuexi/A51352zhaoqing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuexi/str.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuexi/mock3.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/mock3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuexi/mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuexi/select_sku.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/select_sku.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuexi/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuexi/pandian.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/pandian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuexi/service_ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/xuexi/service_ip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuexi/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,9 @@
     <option name="defaultAccountId" value="09e0b85a-772c-41c8-b67e-e19d29dcf9a7" />
   </component>
   <component name="ProjectId" id="1dX1aIsJ53l8EZVarQXkTlR1zme" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,14 +61,77 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../英雄时刻/jd_seckill-master" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\软件\rcs\xuexi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.mock3">
+    <configuration name="A51352haitao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xuexi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/A51352haitao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="A51352zhaoqing (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xuexi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/A51352zhaoqing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="A51352zhaoqing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xuexi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\软件\rcs\xuexi\A51352zhaoqing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mock3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rcs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="str" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rcs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,70 +165,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/ms.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mysql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rcs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xuexi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/mysql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rcs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xuexi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testmock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rcs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xuexi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/testmock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xuexi/str.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.mock3" />
-        <item itemvalue="Python.testmock" />
-        <item itemvalue="Python.ms" />
-        <item itemvalue="Python.mysql" />
+        <item itemvalue="Python.A51352zhaoqing (1)" />
+        <item itemvalue="Python.A51352haitao" />
+        <item itemvalue="Python.A51352zhaoqing" />
+        <item itemvalue="Python.str" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631169667994</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="12-2">
+      <created>1638436640687</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1638436640687</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -469,7 +477,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="0726" />
     <MESSAGE value="0730" />
     <MESSAGE value="0811" />
     <MESSAGE value="0826" />
@@ -494,73 +501,71 @@
     <MESSAGE value="8-26" />
     <MESSAGE value="8-30" />
     <MESSAGE value="9-9" />
-    <option name="LAST_COMMIT_MESSAGE" value="9-9" />
+    <MESSAGE value="12-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="12-2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2662" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632980379014">
-      <screen x="1920" y="0" width="2560" height="1400" />
-    </state>
-    <state x="2662" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1632980379014" />
-    <state width="1259" height="259" key="GridCell.Tab.0.bottom" timestamp="1638260472041">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639117549098">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1899" height="306" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1631588186796" />
-    <state width="1259" height="259" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1638260472041" />
-    <state width="2539" height="399" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1636100756382" />
-    <state width="1259" height="259" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636637758229" />
-    <state width="1259" height="259" key="GridCell.Tab.0.center" timestamp="1638260472041">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1639117549098" />
+    <state width="2539" height="318" key="GridCell.Tab.0.bottom" timestamp="1642657593856">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1259" height="214" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1641987610553" />
+    <state width="2539" height="318" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1642657593856" />
+    <state width="1259" height="136" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1640944491532" />
+    <state width="2539" height="318" key="GridCell.Tab.0.center" timestamp="1642657593855">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1259" height="214" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1641987610553" />
+    <state width="2539" height="318" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1642657593855" />
+    <state width="1259" height="136" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1640944491532" />
+    <state width="2539" height="318" key="GridCell.Tab.0.left" timestamp="1642657593855">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1259" height="214" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1641987610553" />
+    <state width="2539" height="318" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1642657593855" />
+    <state width="1259" height="136" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1640944491532" />
+    <state width="2539" height="318" key="GridCell.Tab.0.right" timestamp="1642657593856">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1259" height="214" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1641987610553" />
+    <state width="2539" height="318" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1642657593856" />
+    <state width="1259" height="136" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1640944491532" />
+    <state width="2539" height="399" key="GridCell.Tab.1.bottom" timestamp="1641262901777">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1899" height="306" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1631588186796" />
-    <state width="1259" height="259" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1638260472041" />
-    <state width="2539" height="399" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1636100756382" />
-    <state width="1259" height="259" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1636637758228" />
-    <state width="1259" height="259" key="GridCell.Tab.0.left" timestamp="1638260472040">
+    <state width="2539" height="399" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1641262901777" />
+    <state width="2539" height="399" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1640940595450" />
+    <state width="2539" height="399" key="GridCell.Tab.1.center" timestamp="1641262901777">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1899" height="306" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1631588186795" />
-    <state width="1259" height="259" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1638260472040" />
-    <state width="2539" height="399" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1636100756381" />
-    <state width="1259" height="259" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1636637758227" />
-    <state width="1259" height="259" key="GridCell.Tab.0.right" timestamp="1638260472041">
+    <state width="2539" height="399" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1641262901777" />
+    <state width="2539" height="399" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1640940595450" />
+    <state width="2539" height="399" key="GridCell.Tab.1.left" timestamp="1641262901777">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1899" height="306" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1631588186796" />
-    <state width="1259" height="259" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1638260472041" />
-    <state width="2539" height="399" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1636100756382" />
-    <state width="1259" height="259" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1636637758229" />
-    <state width="2539" height="399" key="GridCell.Tab.1.bottom" timestamp="1634814280681">
-      <screen x="1920" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2539" height="399" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1630894912763" />
-    <state width="2539" height="399" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1634814280681" />
-    <state width="2539" height="399" key="GridCell.Tab.1.center" timestamp="1634814280681">
-      <screen x="1920" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2539" height="399" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1630894912762" />
-    <state width="2539" height="399" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1634814280681" />
-    <state width="2539" height="399" key="GridCell.Tab.1.left" timestamp="1634814280681">
-      <screen x="1920" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2539" height="399" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1630894912762" />
-    <state width="2539" height="399" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1634814280681" />
-    <state width="2539" height="399" key="GridCell.Tab.1.right" timestamp="1634814280681">
-      <screen x="1920" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2539" height="399" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1630894912763" />
-    <state width="2539" height="399" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1634814280681" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1638436341982">
+    <state width="2539" height="399" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1641262901777" />
+    <state width="2539" height="399" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1640940595450" />
+    <state width="2539" height="399" key="GridCell.Tab.1.right" timestamp="1641262901777">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1638436341982" />
-    <state x="2386" y="150" key="Vcs.Push.Dialog.v2" timestamp="1631169678716">
+    <state width="2539" height="399" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1641262901777" />
+    <state width="2539" height="399" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1640940595450" />
+    <state x="2204" y="0" key="SettingsEditor" timestamp="1639709591388">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="2386" y="150" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1631169678716" />
-    <state x="2756" y="428" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1630033204570">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1638436665446" />
+    <state x="2204" y="0" key="SettingsEditor/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1639709591388" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1638436653974">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.2560.1400@0.0.1280.680" timestamp="1638436653974" />
+    <state x="2012" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1642054775818">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="2756" y="428" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1630033204570" />
+    <state x="2012" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1642054775818" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
